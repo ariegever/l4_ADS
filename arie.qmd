@@ -1,0 +1,42 @@
+---
+title: "My first Quatro"
+date: 1.1.1970
+author: "test"
+format: html
+editor: visual
+---
+
+```{r}
+
+```
+
+---
+ml
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+```{r, echo=False}
+##  Quarto is cool! 
+dotchart(mtcars$mpg,labels=row.names(mtcars),cex=.7,
+          main="Gas Milage for Car Models", 
+          xlab="Miles Per Gallon")  
+```
