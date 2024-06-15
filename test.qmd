@@ -1,0 +1,39 @@
+---
+title: "test1"
+format: html
+editor: visual
+---
+
+## Q1
+
+Answer : B. To specify the document’s format.
+
+## Q2
+
+Answer : A. To indicate what has changed in a commit.
+
+## Q3
+
+Answer: C. Excel.
+
+part 2 ##Q1 1. mkdir -p ANS1 2. cp \~/ADS_L2/ShippingData.csv ANS1/ 3. mv \~/ADS_L2/ANS1/ShippingData.csv \~/ADS_L2/ANS1/Dataframe1.csv 4.rmdir Report
+
+##Q2
+
+1.head -n 
+3 ANS1/Dataframe1.csv 
+2.head -n 5 ShippingData.csv \| tail -n 1 **2013,33.1,27.3,5.8,16,82,93,3.5,Acquisition of smaller competitor**
+
+##Q3
+
+1.cut -d, -f 1,3 ANS1/Dataframe1.csv 
+
+2.grep 8 ANS1/Dataframe1.csv
+
+
+##Q4
+
+1. git init
+2.git add *
+git commit -m "v1"
+
