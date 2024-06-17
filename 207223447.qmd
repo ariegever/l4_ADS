@@ -1,0 +1,87 @@
+---
+title: "207223447"
+format: html
+date: 17/06/2024
+editor: visual
+---
+
+## part 1
+
+## Q1
+
+Answer: 3. It includes a commit message.
+
+##Q2
+
+Answer: 3. To develop features independently.
+
+## Q3
+
+Answer: 1. To list files that should not be tracked by Git.
+
+##PART 2
+
+##Q1
+
+my code: 1.
+
+```{r}
+cd ~/ADS_Q1 
+mkdir ANS1
+```
+
+2.  
+
+```{r}
+cp NEW_DATA/ecommerce_product_dataset.csv ANS1/ecommerce_product_dataset.csv
+```
+
+3.  
+
+```{r, eval=FALSE}
+mv ANS1/ecommerce_product_dataset.csv ANS1/DF1.csv
+```
+
+4.  
+
+```{r, eval=FALSE}
+rmdir Report
+```
+
+##Q2
+
+1.  
+
+```{r}
+ cut -d',' -f1-3,8 ANS1/DF1.csv
+```
+
+2.  
+
+```{r}
+tail -n 3 ANS1/DF1.csv | head -n 1 
+```
+discount amount is 0.02
+
+##Q3:
+1.
+```{r}
+tail -n +2 ANS1/DF1.csv | cut -d',' -f 1,8  | sort -k2 | head -n 1
+
+```
+
+2.
+```{r}
+grep "Flags" ANS1/DF1.csv
+```
+Row: 712
+ 
+##Q4
+
+1.
+```{r}
+git init
+```
+2.
+
+
